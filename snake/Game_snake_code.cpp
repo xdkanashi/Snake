@@ -71,6 +71,7 @@ int main()
 // Enter the game level
 void game_level()
 {
+	system("Color A");
 	setlocale(0, "");
 
 	HKL keyboard = GetKeyboardLayout(0);
